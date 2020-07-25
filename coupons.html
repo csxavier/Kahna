@@ -1,22 +1,142 @@
 <!DOCTYPE html>
 <html>
-<head>
-<head>
-	<title>Coupons</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<ul>
-	<a target="_blank" href="https://bit.ly/2Dy5LCD">Shyaway</a><br>
-		<li><h3> Buy 2 Bras Get 3 FREE on Bras and Get Rs 300 OFF on Orders Over Rs 1000 | Use Code - EK300 </h3></li>
-	<a target="_blank" href="https://bit.ly/3emTRIi">Times Prime</a><br>
-		<li><h3> Rs 60,000 worth benefits with Times Prime Membership + Extra Rs 400 Off Code | Use Code - TP025 </h3></li>
-	<a target="_blank" href="https://bit.ly/oyoek">Oyo</a><br>
-		<li><h3> 45% off on all properties </h3></li>
-	<a target="_blank" href="https://bit.ly/2OcWoKr">Udemy</a><br>
-		<li><h3>Course starting at just Rs 420 </h3></li>
-	</ul>
-	<br>
-</body>
+	<head>
+		<title>Coupons</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		body {
+		  background-color: #f1f1f1;
+		  padding: 20px;
+		  font-family: Arial;
+		}
+
+		/* Center website */
+		.main {
+		  max-width: 1200px;
+		  margin: auto;
+		}
+
+		h1 {
+		  font-size: 50px;
+		  word-break: break-all;
+		}
+
+		.row {
+		  margin: 10px -16px;
+		}
+
+		/* Add padding BETWEEN each column */
+		.row,
+		.row > .column {
+		  padding: 5px;
+		}
+
+		/* Create three equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 33.33%;
+		  display: none; /* Hide all elements by default */
+		}
+
+		/* Clear floats after rows */ 
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Content */
+		.content {
+		  background-color: white;
+		  padding: 10px;
+		}
+
+		/* The "show" class is added to the filtered elements */
+		.show {
+		  display: block;
+		}
+
+		/* Style the buttons */
+		.btn {
+		  border: none;
+		  outline: none;
+		  padding: 12px 16px;
+		  background-color: white;
+		  cursor: pointer;
+		}
+
+		.btn:hover {
+		  background-color: #ddd;
+		}
+
+		.btn.active {
+		  background-color: #666;
+		  color: white;
+		}
+		
+		code {
+			font-family: Consolas,"courier new";
+			color: crimson;
+			background-color: #f1f1f1;
+			padding: 2px;
+			font-size: 75%;
+		}
+
+	    table, td, th {align: Middle; border: 1px solid black; }
+		th {background-color: Red;}
+		th, td, tr {text-align: Middle; font-size: 20px;}
+
+		</style>
+	</head>
+
+	<body>
+	<!-- MAIN (Center website) -->
+	<div class="main">
+		<h1>Coupons</h1>
+		<hr>
+	
+		<table width="1200">
+			<tr>     <th>Offer(s)</th>		<th>Code</th>		<th>Link</th>	</tr>
+			<tr>     <td> Buy 2 Bras Get 3 FREE on Bras <br>	 Get Rs 300 OFF on Orders Over Rs 1000</td>		<td> EK300 </td>					<td>  <a target="_blank" href="https://bit.ly/2Dy5LCD">Shyaway</a></td>	</tr>
+			<tr>     <td> Rs 300 Off on orders Over Rs 2000 <br><code> Delivery Fee: Rs 49 for Orders below Rs 749 </code></td>		<td> CK300 </td>					<td> <a target="_blank" href="https://cashkaro.com/visitretailer/9920?id=4901288">Shyaway</a></td>	</tr>
+			<tr>     <td> Rs 200 Off on Orders Over Rs 1799 <br> <code>Delivery Fee: Rs 49 for Orders below Rs 749</code> </td>		<td> SHY200 </td>					<td> <a target="_blank" href="https://cashkaro.com/visitretailer/9920?id=4901288">Shyaway</a></td>	</tr>
+			<tr>     <td> 10% Off on orders over Rs 499 <br> <code> Delivery Fee: Rs 49 for Orders below Rs 749 </code></td>		<td> FLAT10	 </td>					<td> <a target="_blank" href="https://cashkaro.com/visitretailer/9920?id=4901288">Shyaway</a></td>	</tr>
+			
+			<tr>     <td> Rs 300 Off on orders over Rs 1999 on your first purchase <br> <code> Delivery Fee: Rs 149 for Orders below Rs 799 </code> </td>		<td>MYNTRA300</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13475?id=4901288">Myntra</a></td>	</tr>
+			<tr>     <td> 10% off on orders over Rs 1000 <br> <code> Delivery Fee: Rs 149 for Orders below Rs 799 </code> </td>		<td>SELFCARE10 </td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13475?id=4901288">Myntra</a></td>	</tr>
+			
+			<tr>     <td> Get 32% Off on orders over Rs 2890 from brands like Jaipur Kurti, DNMX, Teamspirit, Puma and more <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>GRAB</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Rs 500 Off on orders Over Rs 2000 from brands like Puma, Allen Solly, Indie Picks and Ajio <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>CK500</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get Rs 750 Off on orders over Rs 2990 from top brands like GAP, Vero Moda, Dune London and many more <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>SIBLING</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get 30% Off on orders over Rs 2890 from brands like Allen Solly, Louis Philippe, GAP and more <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>EPIC</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get Rs 400 Off on orders over Rs 2490 on shirts, kurtas, trousers and more from brands like Allen Solly, GAP, Indie Picks, Puma and many more <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>SUPER400</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get 40% Off on orders over Rs 1590 from Campus Sutra, Lyra, Peter England and more <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>MARK</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get Rs 500 Off on orders over Rs 1000 on Ajio Collection <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>AJIO500</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get 30% Off on orders over Rs 4500 from premium brands like Superdry, Armani Exchange, Steve Madden, Replay and more at 30% Off <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>AJIOSPL</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get 60% Off on orders over Rs 1990 on brands like Netplay, Project Eve,Disney, Fig and more <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>TRENDS60</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			<tr>     <td> Get 75% Off on Orders Over Rs 1490 on shoes, shirts, tops, t-shirts from brands like Ajio, Red Tape,Levis and more at 75% Off <br> <code> Delivery Fee: Rs 149 for Orders below Rs 1199 </code> </td>		<td>AJIO500</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13403/269681967?id=4901288">Ajio</a></td>	</tr>
+			
+			<tr>     <td> get Flat 30% Off on all orders (Except Sanitizers) <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>DAILY30</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Buy 1 Get 1 Free offer : Buy two products from their beard category and get product with lower cost value for free <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>TGIF</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 20% Off on all orders (Except Sanitizers) <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>AVAIL20</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 25% Off on all face products orders <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>FACE25</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 25% Off on all body products orders <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>BODY25</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 25% Off on all body perfume trio products orders <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>TRIO25</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 15% Off on all orders (Except Sanitizers) <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>AVAIL15</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 35% Off on all EAU DE TOILETTE <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>EDT35</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Get Flat 12% Off on all orders <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>ADM12</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Buy Bright Side Combo worth Rs 745 for Rs 245 after discount <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>DAILY30</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			<tr>     <td> Buy Deep Defense Mini Kit worth Rs 1043 for Rs 343 after discount <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>DAILY30</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+			
+			
+			<tr>     <td> Get Flat 35% Off on all EAU DE TOILETTE <br> <code> Delivery Fee: Rs 50 for Orders below Rs 500 </code> </td>		<td>EDT35</td>				<td> <a target="_blank" href="https://cashkaro.com/visitretailer/13557?id=4901288">The Man Company</a></td>	</tr>
+
+		</table>
+	</div>
+	</body>
 </html>
